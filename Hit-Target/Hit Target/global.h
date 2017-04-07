@@ -14,7 +14,6 @@
 #include "Sangmin.h"
 
 
-
 #define MAX_X_POS   79
 #define MAX_Y_POS   24
 
@@ -24,27 +23,20 @@
 #define RIGHT_KEY	77
 #define SPACEBAR_KEY    20
 
-
-
-typedef struct _Position
-{
-    int x;
-    int y;
-}Position;  
+ 
 
 typedef struct _User
 {
-    Position pos;
+    int x;
+    int y;
 }USER;
 
 typedef struct _Target
 {
-    Position pos;
+    int x;
+    int y;
 }TARGET;
 
-
-USER User;
-TARGET** Target;
 
 void init();
 void initRandomSeed();

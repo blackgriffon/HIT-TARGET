@@ -1,6 +1,11 @@
 #include "global.h"
 
 
+
+USER User;
+TARGET** Target;
+
+
 void init()
 {
     initRandomSeed();
