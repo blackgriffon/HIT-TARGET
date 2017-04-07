@@ -3,10 +3,22 @@
 
 extern USER User;
 extern TARGET** Target;
+extern int TargetCnt;
+
+
+/* 테스트 방법
+
+    makeArrayOfTarget(배열수) - 타겟 배열공간 힙 메모리에 할당
+    // 자기가 주고 싶은 값 입력  for(i = 0 ; i <TargetCnt ; i++) // TargetCnt는 현재 배열의 갯수
+    //테스트 할 함수
+    deleteArrayOfTarget - 배열공간 힙메모리에서 해제
+*/
+
+
+
 
 void main()
 {
-
 
         // 입력 값을 받는다.
 

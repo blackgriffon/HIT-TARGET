@@ -36,7 +36,7 @@ int getRandom(int option)
 void makeArrayOfTarget(int size)
 {
     int i;
-    Target = (TARGET**) malloc(sizeof(TARGET*) * size));
+    Target = (TARGET**) malloc(sizeof(TARGET*) * size);
 
     for(i = 0 ; i < size ; i++)
     {

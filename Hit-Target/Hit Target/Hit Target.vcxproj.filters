@@ -13,23 +13,23 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="소스 파일\01_메인">
-      <UniqueIdentifier>{5a296ee8-ff5f-4354-953f-c27a22e0081e}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\03_김대중">
       <UniqueIdentifier>{ca4ef464-102e-450f-ad2b-2856e04cb9f9}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\04_김태우">
       <UniqueIdentifier>{9383fe3b-ceef-46f9-80e8-eba16f359419}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\07_윤지석">
-      <UniqueIdentifier>{c042cddc-4209-4ca1-b0ec-54bc634af463}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\06_이상민">
       <UniqueIdentifier>{8e2ce5d0-cf31-4071-afc9-1258387750f7}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\02_글로벌">
       <UniqueIdentifier>{3411c19f-43ae-4460-9871-14101b32dd0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01_메인">
+      <UniqueIdentifier>{5a296ee8-ff5f-4354-953f-c27a22e0081e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05_윤지석">
+      <UniqueIdentifier>{c042cddc-4209-4ca1-b0ec-54bc634af463}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -39,17 +39,17 @@
     <ClCompile Include="sangmin.c">
       <Filter>소스 파일\06_이상민</Filter>
     </ClCompile>
-    <ClCompile Include="daejung.c">
-      <Filter>소스 파일\03_김대중</Filter>
-    </ClCompile>
     <ClCompile Include="Jisuk.c">
-      <Filter>소스 파일\07_윤지석</Filter>
+      <Filter>소스 파일\05_윤지석</Filter>
     </ClCompile>
     <ClCompile Include="Taewoo.c">
       <Filter>소스 파일\04_김태우</Filter>
     </ClCompile>
     <ClCompile Include="main.c">
       <Filter>소스 파일\01_메인</Filter>
+    </ClCompile>
+    <ClCompile Include="Daejung.c">
+      <Filter>소스 파일\03_김대중</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -63,7 +63,7 @@
       <Filter>소스 파일\03_김대중</Filter>
     </ClInclude>
     <ClInclude Include="Jisuk.h">
-      <Filter>소스 파일\07_윤지석</Filter>
+      <Filter>소스 파일\05_윤지석</Filter>
     </ClInclude>
     <ClInclude Include="Taewoo.h">
       <Filter>소스 파일\04_김태우</Filter>

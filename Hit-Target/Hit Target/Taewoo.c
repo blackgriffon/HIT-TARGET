@@ -2,5 +2,6 @@
 
 extern USER User;
 extern TARGET** Target;
+extern TargetCnt;
 
 

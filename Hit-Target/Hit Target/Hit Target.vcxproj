@@ -75,7 +75,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="daejung.c" />
+    <ClCompile Include="Daejung.c" />
     <ClCompile Include="global.c" />
     <ClCompile Include="main.c" />
     <ClCompile Include="sangmin.c" />
