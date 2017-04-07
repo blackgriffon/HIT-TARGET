@@ -7,7 +7,6 @@ extern TARGET** Target;
 void main()
 {
 
-      
 
         // 입력 값을 받는다.
 
